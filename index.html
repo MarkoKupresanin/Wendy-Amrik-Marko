@@ -7,6 +7,85 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <h1 class="section-header"> Hackathon </h1>
+    <section>
+      <!-- navigation bar? -->
+      <div id="nav-container">
+        <!--the hastags will be replaced with div names later -->
+        <a href="#" id="nav-links">Go To Corona Advice</a>
+        <a href="#" id="nav-links">Go to (something here) Advice</a>
+      </div>
+
+    </section>
+
+    <section>
+      <!-- quick intro? -->
+      <p class="introduction"> Welcome to the ... Covid Help Center?? </p>
+    </section>
+
+    <section>
+      <!-- one of the inputs? -->
+      <form action="" method="GET">
+        <label for="condition"> Please select your symptoms: </label><br>
+        <input type="checkbox" name="symptoms" value="1"/>headache<br>
+        <input type="checkbox" name="symptoms" value="2"/>fatigue<br>
+        <input type="checkbox" name="symptoms" value="3"/>cough<br>
+        <input type="checkbox" name="symptoms" value="4"/>fever or chills<br>
+        <input type="checkbox" name="symptoms" value="5"/>sore throat<br>
+        <input type="checkbox" name="symptoms" value="6"/>runny nose or congestion<br>
+        <input type="checkbox" name="symptoms" value="7" /> shortness of breath<br>
+        <input type="checkbox" name="symptoms" value="8"/> other
+        <br> <br>
+        <label for="age"> Age: </label>
+        <input type="number" name="age" placeholder="28"/>
+        <br> <br>
+        <label for="location"> Location: </label>
+        <input type="text" name="location" placeholder="San Jose, CA" />
+        <br> <br>
+        <input type="submit" value="Submit"/> 
+      </form>
+    </section>
+
+    <section> <!--advice area-->
+    </section>
+
+    <section>
+      <h1><br><br>Covid Info Center</h1>
+           <!--Searchbar-->
+        <div class="topnav">
+          <input id="searchbar" onkeyup="search_covid()" type="text"
+        name="search" placeholder="Search...">
+          <ol id='list'> 
+            <li class="animals">What to do when you get Covid-19</li> 
+            <li class="animals">Quarantine protocols</li> 
+            <li class="animals">Covid-19 testing</li> 
+            <li class="animals">Vaccination Information</li> 
+            <li class="animals">Covid </li>  
+          </ol>
+        </div>
+      <!--End of Searchbar-->
+
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- 
+COMMENTS:
+we are gonna have to make it lookk good as well so like maybe some images, footer, and like a top navigation bar that can scroll to the input
+
+
+
+actually more like 5 mins lol
+okay so our ideas are to make a covid related website that can take in user input about themselves such as their condition, age, location, and using their input, we give them advice about what they should do. The website also would have other features such as a covid info section, and a a tracker of the input from other users.
+
+we pretty much have 3 sections: user input, covid info, and input history
+ok
+sie 
+oh yeah with the different secctions are we going t put them all on one long page or have different tabs that we can click on?
+
+yeah how about we start with just a page
+
+I'll be back soon but i think the idea is good so we can split up sections
+--> 
