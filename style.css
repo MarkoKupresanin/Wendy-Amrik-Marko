@@ -58,10 +58,9 @@ a {
    } 
  
    input[type=text] { 
-      width: 50%; 
       -webkit-transition: width 0.15s ease-in-out; 
       transition: width 0.15s ease-in-out; 
-   } 
+   }
  
    /* When the input field gets focus, 
         change its width to 100% */
@@ -72,9 +71,26 @@ a {
   #list{ 
     font-size:  1.5em; 
     margin-left: 90px; 
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */  
    } 
  
-.animals{ 
-   display: list-item;     
-  }  
+.covid-options{ 
+   display: list-item; 
+   font-size:16px;  
+}
   /*End of Searchbar*/
+
+
+
+
+
+
+.foot {
+  text-align: center;
+  color:#D3D3D3;
+  font-size:15px;
+  padding-top: 500px;
+  padding-bottom: 20px;
+}
